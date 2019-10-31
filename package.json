@@ -1,0 +1,29 @@
+{
+  "name": "@realmjs/cli",
+  "version": "0.1.0",
+  "description": "Command-line interface for Realmjs helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realmjs/cli.git"
+  },
+  "keywords": [
+    "realmjs",
+    "cli"
+  ],
+  "author": "duongtdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realmjs/cli/issues"
+  },
+  "homepage": "https://github.com/realmjs/cli#readme",
+  "bin": {
+    "realm": "./bin/index.js"
+  },
+  "dependencies": {
+    "archiver": "^3.1.1"
+  }
+}
