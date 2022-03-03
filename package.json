@@ -4,7 +4,7 @@
   "description": "Command-line interface for Realmjs helpers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "realm": "node ./bin/index.js"
   },
   "repository": {
     "type": "git",
