@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const zip = require('../lib/zip')
+const zip = require('../lib/zip/zip');
 
 // parsing arguments
 const [,, ...args] = process.argv
