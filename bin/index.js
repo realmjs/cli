@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const zip = require("../lib/zip/zip");
-const sync = require("../lib/sync/sync");
+const project = require("../lib/project");
 
 // parsing arguments
 const [,, ...args] = process.argv
@@ -15,8 +15,8 @@ switch (args[0]) {
   case "zip":
     zip(path, options).then(v => console.log(v)).catch( err => console.log(err));
     break;
-  case "sync":
-    sync(args[1]);
+  case "project":
+    project(args);
     break;
   default:
     help();
