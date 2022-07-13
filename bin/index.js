@@ -16,7 +16,7 @@ switch (args[0]) {
     zip(path, options).then(v => console.log(v)).catch( err => console.log(err));
     break;
   case "project":
-    project(args);
+    project(args.slice(1));
     break;
   default:
     help();
