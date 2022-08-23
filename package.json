@@ -1,58 +1,29 @@
 {
-  "_from": "@realmjs/cli",
-  "_id": "@realmjs/cli@0.1.2",
-  "_inBundle": false,
-  "_integrity": "sha512-YXNPS3cXhH4qyFRP7IDpO+MOKcknUl2CCgz/bwEY/wyqXEc86bxQ74F0BFcLmFsloYgrBb0hzqQ4O/juIROp8Q==",
-  "_location": "/@realmjs/cli",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "@realmjs/cli",
-    "name": "@realmjs/cli",
-    "escapedName": "@realmjs%2fcli",
-    "scope": "@realmjs",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@realmjs/cli/-/cli-0.1.2.tgz",
-  "_shasum": "33ccff66ba6b87cdf2db9dcaf65a97ffaee7eaf6",
-  "_spec": "@realmjs/cli",
-  "_where": "D:\\work\\sync",
-  "author": {
-    "name": "duongtdn"
-  },
-  "bin": {
-    "realm": "bin/index.js"
-  },
-  "bugs": {
-    "url": "https://github.com/realmjs/cli/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "archiver": "^3.1.1"
-  },
-  "deprecated": false,
-  "description": "Command-line interface for Realmjs helpers",
-  "homepage": "https://github.com/realmjs/cli#readme",
-  "keywords": [
-    "realmjs",
-    "cli"
-  ],
-  "license": "MIT",
-  "main": "index.js",
   "name": "@realmjs/cli",
+  "version": "1.0.0",
+  "description": "Command-line interface for Realmjs helpers",
+  "main": "index.js",
+  "scripts": {
+    "realm": "node ./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/realmjs/cli.git"
   },
-  "scripts": {
-    "realm": "node ./bin/index.js"
+  "keywords": [
+    "realmjs",
+    "cli"
+  ],
+  "author": "duongtdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realmjs/cli/issues"
   },
-  "version": "0.1.2"
+  "homepage": "https://github.com/realmjs/cli#readme",
+  "bin": {
+    "realm": "./bin/index.js"
+  },
+  "dependencies": {
+    "archiver": "^3.1.1"
+  }
 }
